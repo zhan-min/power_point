@@ -1,0 +1,21 @@
+<!--miniprogram/pages/home_center/common_panel/index.js.wxml-->
+<wxs src="./index.wxs" module="utils" />
+
+<image style="width: 750rpx; height: 1334rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"  class="common-panel-backgroud" src="{{background}}" />
+<navbar device_name="寝室插座" bind:jumpTodeviceEditPage="jumpTodeviceEditPage" />
+
+<view class="common-panel-header">
+  <image class="common-panel-header-state" src="../../../image/power_point.png" />
+  <view  class="common-panel-header-content">现在没电</view>
+</view>
+
+
+
+<view class="control">
+  <image class="control-switch" src="../../../image/switch.png" />
+  <text class="control-switch-content">开关</text>
+  <image class="control-timer" src="../../../image/timer.png" />
+  <text class="control-timer-content">定时</text>
+  <image class="control-voltameter" src="../../../image/voltameter.png" />
+  <text class="control-voltameter-content">电量</text>
+</view>

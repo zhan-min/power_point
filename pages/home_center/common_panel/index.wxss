@@ -1,0 +1,189 @@
+/* miniprogram/pages/home_center/common_panel/index.js.wxss */
+
+
+
+
+.common-panel-backgroud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+	height: 320px;
+	background-color: #000000;
+}
+
+.common-panel-header {
+  z-index: 10;
+  width: 750rpx;
+  height: 549rpx;
+  display: flex;
+  box-sizing:
+  border-box;
+  left: NaNrpx;
+  top: NaNrpx
+}
+
+
+.common-panel-header-state{
+  position: relative;
+  top: 100rpx;
+  left: 150rpx;
+  width: 170px;
+	height: 160px;
+	background-color: #00a8eb;
+}
+
+.common-panel-header-content
+{
+  position: absolute;
+  left: 265rpx;
+  top: 654rpx;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.control
+{
+  position: absolute;
+  left: 0rpx;
+  top: 1100rpx;
+  width: 750px;
+	height: 100px;
+}
+
+.control-switch
+{
+  position: relative;
+  left: 38rpx;
+  top: 3rpx;
+  width: 60px;
+	height: 60px;
+	background-color: #00a8eb;
+}
+
+.control-switch-content
+{
+  position: relative;
+  left: -75rpx;
+  top: 47rpx;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.control-timer
+{
+  position: relative;
+  left: 64rpx;
+  top: 3rpx;
+  width: 60px;
+	height: 60px;
+	background-color: #00a8eb;
+}
+
+.control-timer-content
+{
+  position: relative;
+  left: -50rpx;
+  top: 47rpx;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.control-voltameter
+{
+  position: relative;
+  left: 127rpx;
+  top: 3rpx;
+  width: 60px;
+	height: 60px;
+	background-color: #00a8eb;
+}
+
+.control-voltameter-content
+{
+  position: relative;
+  left: 15rpx;
+  top: 47rpx;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roDpItem-normal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 54px;
+  padding: 16px 2px;
+}
+
+.roDpItem-normal:not(:last-child) {
+  border-right: solid 1px #d6d6d6;
+}
+
+.roDpItem-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 54px;
+  padding: 16px 33px;
+}
+
+.roDpItem-two:not(:last-child) {
+  border-right: solid 1px #d6d6d6;
+}
+
+.roDpItem-one {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 64px;
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.roDpItem-dpName {
+  flex: 1;
+  width: 115px;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(80, 80, 80, 0.5);
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.roDpItem-status {
+  width: 115px;
+  text-align: center;
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #505050;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.statuslist {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  line-height: 12px;
+  flex-wrap: wrap;
+}
